@@ -1,12 +1,18 @@
-import Vue from "vue";
-import Vuex from "vuex";
+import { Store } from 'vuex';
+import usersModule from './modules/users.module';
+import filtersModule from './modules/filters.module';
 
-Vue.use(Vuex);
+// здесь просто подключаем модули
+function createStore() {
+  const store = new Store({
+    modules: {
+        usersModule,
+        filtersModule
+    },
+  });
 
-export default new Vuex.Store({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
-});
+
+  return store;
+}
+
+export default createStore;
