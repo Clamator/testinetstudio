@@ -24,14 +24,13 @@
 
         {{ user.subject }}
       </v-list-item-subtitle>
-      <div
-        v-show="this.isAddressVisible"
-        class="user-card__address user-address"
-      >
-        <span>
-          {{ user.address }}
-        </span>
-      </div>
+      <transition name="fade">
+        <div v-if="isAddressVisible" class="user-card__address user-address">
+      <span>
+        {{ user.address }}
+      </span>
+        </div>
+      </transition>
     </v-list-item-content>
   </v-list-item>
 </template>
@@ -73,5 +72,14 @@ export default {
   left: -25%;
   transform: translateX(-50%);
   z-index: 999;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
