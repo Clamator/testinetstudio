@@ -72,7 +72,6 @@ export default {
   top: 25%;
   left: -25%;
   transform: translateX(-50%);
-  transition: top 1.5s;
   z-index: 999;
 }
 </style>
