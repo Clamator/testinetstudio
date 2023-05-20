@@ -60,3 +60,19 @@ export default {
   },
 };
 </script>
+<style>
+.user-card__address {
+  position: absolute;
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 25%;
+  left: -25%;
+  transform: translateX(-50%);
+  transition: top 1.5s;
+  z-index: 999;
+}
+</style>

@@ -8,7 +8,7 @@
     "count": 0,
     "score": 8,
     "country": "Russia",
-    "address": "address"
+    "address": "Broadway 10012, New York, NY, USA"
   },
   {
     "id": 1,
@@ -19,7 +19,7 @@
     "count": 4,
     "score": 12,
     "country": "Russia",
-    "address": "address"
+    "address": "Park Ave, New York, NY, USA"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
     "count": 0,
     "score": 23,
     "country": "Usa",
-    "address": "address"
+    "address": "St Marks Pl, New York, NY, USA"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "count": 0,
     "score": 17,
     "country": "Russia",
-    "address": "address"
+    "address": "5th Ave, New York, NY, USA"
   },
   {
     "id": 4,
@@ -52,6 +52,6 @@
     "count": 0,
     "score": 10,
     "country": "Usa",
-    "address": "address"
+    "address": "Brooklyn, NY 11201, USA"
   }
 ]
