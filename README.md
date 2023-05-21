@@ -1,5 +1,5 @@
 # testinetstudio
-
+Необходимо запустить тестовый сервер командой node server.js, находясь в директории ./src/server
 ## Project setup
 ```
 npm install
