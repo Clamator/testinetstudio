@@ -1,5 +1,8 @@
 # testinetstudio
-Необходимо запустить тестовый сервер командой node server.js, находясь в директории ./src/server
+1. Скопировать проект командой git clone git@github.com:Clamator/testinetstudio.git,
+2. Установить зависимости командой npm install,
+3. Запустить тестовый сервер командой node server.js, находясь в директории ./src/server,
+4. Командой npm run serve запустить сервер для разработки приложения.
 ## Project setup
 ```
 npm install
